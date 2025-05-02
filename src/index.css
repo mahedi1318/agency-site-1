@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.container{
+  max-width: 1220px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.navbar { 
+  padding: 15px 0;
+}

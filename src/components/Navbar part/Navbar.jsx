@@ -1,0 +1,64 @@
+import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router'
+
+const Navbar = () => {
+
+    const navlinks = (
+        <>
+        <li>
+            <Link to="/">Home</Link>
+        </li>
+        <li>
+            <Link to="/">About</Link>
+        </li>
+        <li>
+            <Link to="/">Project</Link>
+        </li>
+        <li>
+            <Link to="/">Service</Link>
+        </li>        
+
+        </>
+    )
+
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(()=>{
+        const handleScroll = ()=>{
+            setScrolled(window.scrollY > 80);
+        }
+
+        window.addEventListener("scroll", handleScroll)
+        return ()=> window.removeEventListener("scroll", handleScroll)
+        
+    }, [])
+
+
+  return (
+    <div className={`fixed top-0 left-0 w-full z-20 ${scrolled ? "bg-[#0f1425] shadow-md text-white" : "bg-transparent"}`} >
+      <div className="navbar container">
+        <div className="navbar-start">
+            <div className="dropdown">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+            </div>
+            <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-[20px]">
+               {navlinks}
+            </ul>
+            </div>
+            <Link to="/" className=" text-xl">Agency Site</Link>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+            <ul className=" menu-horizontal px-1 gap-[40px]">
+                {navlinks}
+            </ul>
+        </div>
+        <div className="navbar-end">
+            <Link to="/" className="px-7 py-[11px] bg-[#32393e] rounded-md text-white">Get started</Link>
+        </div>
+        </div>
+    </div>
+  )
+}
+
+export default Navbar
