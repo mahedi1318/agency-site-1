@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import project1 from "../../../assets/images/project-1.jpg"
+import { motion } from 'framer-motion';
 
 const Project = () => {
   return (
@@ -9,8 +10,8 @@ const Project = () => {
       <div className="container">
         <div className="flex justify-between items-center">
             <div className="">
-                <span className='poppins text-[16px] font-normal text-[#6e6e6e]'>CLIENTS WE WORK FOR</span>
-                <h2 className='poppins text-[50px] font-semibold text-[#353535]'>Our Project.</h2>
+                <motion.h6 initial={{ opacity: 0, y: 50 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[16px] font-normal text-[#6e6e6e]'>CLIENTS WE WORK FOR</motion.h6>
+                <motion.h2 initial={{ opacity: 0, y: -50 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[50px] font-semibold text-[#353535]'>Our Project.</motion.h2>
             </div>
             <Link className="poppins text-[15px] font-normal px-6 py-[13px] bg-[#32393e] rounded-md text-white flex items-center gap-[5px] border-l-[5px] border-[#ffd957] 
             hover:bg-[#ffd957] transition-all duration-300 hover:text-[#444]" to="/project" ><FaLongArrowAltRight /> View More</Link>
