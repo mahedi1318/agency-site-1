@@ -29,10 +29,10 @@ const Navbar = () => {
             <ul className={`poppins text-[14px] font-normal absolute top-full left-0  min-w-[180px] p-4 hidden group-hover:flex flex-col gap-2 rounded-md shadow-lg
                  z-50 ${scrolled ? "text-white bg-[#0f1425]" : "bg-[#ffd957]"}`}>
                 <li>
-                    <Link to="/service">Custom Code</Link>
+                    <Link to="/project">Custom Code</Link>
                 </li>
                 <li>
-                    <Link to="/service">Webflow</Link>
+                    <Link to="/project">Webflow</Link>
                 </li>
             </ul>
         </li> 
