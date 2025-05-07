@@ -44,7 +44,7 @@ const Navbar = () => {
     )
 
   return (
-    <div className={`fixed top-0 left-0 w-full z-20 ${scrolled ? "bg-[#fff] shadow-md text-[#0f1425]" : "bg-transparent"}`} >
+    <div className={`fixed top-0 left-0 w-full z-20 ${scrolled ? "bg-[#fff] shadow-md text-[#0f1425]" : "bg-transparent text-[#0f1425]"}`} >
       <div className="navbar container">
         <div className="navbar-start">
             <div className="dropdown">
