@@ -6,12 +6,12 @@ import { motion } from 'framer-motion';
 
 const Service = () => {
   return (
-    <div className='py-[100px]'>
+    <div className='py-[100px] bg-[#fff]'>
       <div className="container">
         <div className="grid xl:grid-cols-3 gap-[50px]">
           <div className="">
-            <span className='poppins text-[16px] font-normal'>Services</span>
-            <motion.h2 initial={{ opacity: 0, y: -150 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[20px] sm:text-[35px] md:text-[50px] font-semibold leading-[30px] sm:leading-[48px] md:leading-[68px] mt-4'>We always serve various digital brands.</motion.h2>
+            <span className='poppins text-[16px] font-normal text-[#181818]'>Services</span>
+            <motion.h2 initial={{ opacity: 0, y: -150 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[20px] text-[#181818] sm:text-[35px] md:text-[50px] font-semibold leading-[30px] sm:leading-[48px] md:leading-[68px] mt-4'>We always serve various digital brands.</motion.h2>
             <Link className='poppins text-[15px] font-normal px-6 py-[13px] bg-[#32393e] rounded-md text-white inline-flex items-center gap-[5px] border-l-[5px] border-[#ffd957] 
             hover:bg-[#ffd957] transition-all duration-300 hover:text-[#444] mt-10' to="/" ><FaLongArrowAltRight /> Get started</Link>
           </div>

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Project = () => {
   return (
-    <div className='py-[100px]'>
+    <div className='py-[100px] bg-[#fff]'>
       <div className="container">
         <div className="flex flex-wrap justify-between items-center">
             <div className="">
