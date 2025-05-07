@@ -29,10 +29,10 @@ const Navbar = () => {
             <ul className={`poppins text-[14px] font-normal absolute top-full left-0  min-w-[180px] p-4 hidden group-hover:flex flex-col gap-2 rounded-md shadow-lg
                  z-50 ${scrolled ? "text-white bg-[#0f1425]" : "bg-[#ffd957]"}`}>
                 <li>
-                    <Link to="/project">Custom Code</Link>
+                    <Link to="/customCode" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2'>Custom Code</Link>
                 </li>
                 <li>
-                    <Link to="/project">Webflow</Link>
+                    <Link to="/webflow" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2'>Webflow</Link>
                 </li>
             </ul>
         </li> 
@@ -63,7 +63,7 @@ const Navbar = () => {
             </ul>
         </div>
         <div className="navbar-end">
-            <Link to="/" className="px-7 py-[11px] bg-[#32393e] rounded-md text-white">Get started</Link>
+            <Link to="/contact" className="px-4 md:px-7 py-[9px] md:py-[11px] bg-[#32393e] rounded-md text-white poppins text-[14px] md:text-[16px] font-medium">Get started</Link>
         </div>
         </div>
     </div>

@@ -72,7 +72,7 @@ const AllProject = () => {
             </div>
         </div>
         {/* -------------------------------- */}
-        <div className="grid grid-cols-3 gap-[20px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
             {filteredProject.map((item, index)=>(
                 <div key={index} className="px-4 pt-4 pb-6 border border-[#e9e9e9] rounded-xl shadow-sm">
                     <div className="">

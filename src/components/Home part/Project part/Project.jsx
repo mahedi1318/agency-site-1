@@ -8,15 +8,15 @@ const Project = () => {
   return (
     <div className='py-[100px]'>
       <div className="container">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-wrap justify-between items-center">
             <div className="">
                 <motion.h6 initial={{ opacity: 0, y: 50 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[16px] font-normal text-[#6e6e6e]'>CLIENTS WE WORK FOR</motion.h6>
-                <motion.h2 initial={{ opacity: 0, y: -50 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[50px] font-semibold text-[#353535]'>Our Project.</motion.h2>
+                <motion.h2 initial={{ opacity: 0, y: -50 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[30px] md:text-[50px] font-semibold text-[#353535]'>Our Project.</motion.h2>
             </div>
             <Link className="poppins text-[15px] font-normal px-6 py-[13px] bg-[#32393e] rounded-md text-white flex items-center gap-[5px] border-l-[5px] border-[#ffd957] 
-            hover:bg-[#ffd957] transition-all duration-300 hover:text-[#444]" to="/project" ><FaLongArrowAltRight /> View More</Link>
+            hover:bg-[#ffd957] transition-all duration-300 hover:text-[#444] mt-5 md:mt-0" to="/project" ><FaLongArrowAltRight /> View More</Link>
         </div>
-        <div className="grid grid-cols-3 gap-[20px] mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] mt-10">
             <div className="p-3 border-gray-700 shadow-sm rounded-xl">
                 <div className="">
                     <img src={project1} alt="" />
