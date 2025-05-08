@@ -8,10 +8,10 @@ const WebflowPricing = () => {
         <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[30px]">
             <div className="p-6 shadow-lg rounded-lg ">
-                <h3 className='poppins text-[24px] font-semibold'>Essential</h3>
+                <h3 className='poppins text-[24px] font-semibold text-[#181818]'>Essential</h3>
                 <span className='poppins text-[26px] font-medium inline-block mt-2 text-[#bd9103]'>$5,000 - $15,000</span>
-                <p className='poppins text-[16px] font-normal leading-[26px] mt-2'>Perfect for small businesses and startups looking to establish their online presence with a custom solution.</p>
-                <div className="mt-6 ">
+                <p className='poppins text-[16px] font-normal leading-[26px] mt-2 text-[#181818]'>Perfect for small businesses and startups looking to establish their online presence with a custom solution.</p>
+                <div className="mt-6 text-[#181818]">
                     <div className="flex items-center gap-[10px] mb-3">
                         <IoCheckmarkCircleOutline className='text-[22px] text-[#bd9103]' />
                         <p className='poppins text-[14px] font-sans'>Up to 5 unique page templates</p>
@@ -42,13 +42,13 @@ const WebflowPricing = () => {
                     </div>
                 </div>
                 <Link to="/contact" className='poppins text-[16px] font-medium py-[12px] w-full border-2 block text-center mt-8 rounded-lg hover:bg-[#ffd957]
-                    hover:border-[#ffd957] transition-all duration-300'>Get Started</Link>
+                    hover:border-[#ffd957] transition-all duration-300 text-[#181818]'>Get Started</Link>
             </div>
             <div className="p-6 shadow-lg rounded-lg">
-                <h3 className='poppins text-[24px] font-semibold'>Professional</h3>
+                <h3 className='poppins text-[24px] font-semibold text-[#181818]'>Professional</h3>
                 <span className='poppins text-[26px] font-medium inline-block mt-2 text-[#bd9103]'>$5,000 - $15,000</span>
-                <p className='poppins text-[16px] font-normal leading-[26px] mt-2'>Ideal for growing businesses that need more advanced functionality and integrations.</p>
-                <div className="mt-6 ">
+                <p className='poppins text-[16px] font-normal leading-[26px] mt-2 text-[#181818]'>Ideal for growing businesses that need more advanced functionality and integrations.</p>
+                <div className="mt-6 text-[#181818]">
                     <div className="flex items-center gap-[10px] mb-3">
                         <IoCheckmarkCircleOutline className='text-[22px] text-[#bd9103]' />
                         <p className='poppins text-[14px] font-sans'>Everything in Startup, plus:</p>
@@ -79,13 +79,13 @@ const WebflowPricing = () => {
                     </div>                    
                 </div>
                 <Link to="/contact" className='poppins text-[16px] font-medium py-[12px] w-full border-2 block text-center mt-8 rounded-lg bg-[#ffd957]
-                    border-[#ffd957] transition-all duration-300'>Get Started</Link>
+                    border-[#ffd957] transition-all duration-300 text-[#181818]'>Get Started</Link>
             </div>
             <div className="p-6 shadow-lg rounded-lg">
-                <h3 className='poppins text-[24px] font-semibold'>Enterprise</h3>
+                <h3 className='poppins text-[24px] font-semibold text-[#181818]'>Enterprise</h3>
                 <span className='poppins text-[26px] font-medium inline-block mt-2 text-[#bd9103]'>$5,000 - $15,000</span>
-                <p className='poppins text-[16px] font-normal leading-[26px] mt-2'>Comprehensive solutions for large organizations with complex content and integration needs.</p>
-                <div className="mt-6 ">
+                <p className='poppins text-[16px] font-normal leading-[26px] mt-2 text-[#181818]'>Comprehensive solutions for large organizations with complex content and integration needs.</p>
+                <div className="mt-6 text-[#181818]">
                     <div className="flex items-center gap-[10px] mb-3">
                         <IoCheckmarkCircleOutline className='text-[22px] text-[#bd9103]' />
                         <p className='poppins text-[14px] font-sans'>Unlimited unique page templates</p>
@@ -120,7 +120,7 @@ const WebflowPricing = () => {
                     </div>
                 </div>
                 <Link to="/contact" className='poppins text-[16px] font-medium py-[12px] w-full border-2 block text-center mt-8 rounded-lg hover:bg-[#ffd957]
-                    hover:border-[#ffd957] transition-all duration-300'>Get Started</Link>
+                    hover:border-[#ffd957] transition-all duration-300 text-[#181818]'>Get Started</Link>
             </div>
         </div>
         <div className="">

@@ -27,12 +27,12 @@ const Navbar = () => {
         <li className='relative group'>
             <span className='inline-block cursor-pointer'>Service</span>
             <ul className={`poppins text-[14px] font-normal absolute top-full left-0  min-w-[180px] p-4 hidden group-hover:flex flex-col gap-2 rounded-md shadow-lg
-                 z-50 ${scrolled ? "text-white bg-[#0f1425]" : "bg-[#ffd957]"}`}>
+                 z-50 ${scrolled ? "text-white bg-[#0f1425]" : "bg-[#ffd957] border border-[#d6d6d6]"}`}>
                 <li>
-                    <Link to="/customCode" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2'>Custom Code</Link>
+                    <Link to="/customCode" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2 rounded-md transition-all duration-500'>Custom Code</Link>
                 </li>
                 <li>
-                    <Link to="/webflow" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2'>Webflow</Link>
+                    <Link to="/webflow" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2 rounded-md transition-all duration-500'>Webflow</Link>
                 </li>
             </ul>
         </li> 

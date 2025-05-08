@@ -50,8 +50,8 @@ const CustomService = () => {
                     <div className="w-[50px] h-[50px] bg-[#ffd957] flex justify-center items-center mb-5 rounded-lg text-[30px] text-[#6b6b6b]">
                         {item.icons}
                     </div>
-                    <h3 className='poppins text-[20px] font-bold'>{item.names}</h3>
-                    <p className='poppins text-[16px] font-normal mt-4'>{item.description}</p>
+                    <h3 className='poppins text-[20px] font-bold text-[#181818]'>{item.names}</h3>
+                    <p className='poppins text-[16px] font-normal mt-4 text-[#181818]'>{item.description}</p>
                 </div>
             ))}
         </div>

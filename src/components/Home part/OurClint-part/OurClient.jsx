@@ -47,8 +47,8 @@ const OurClient = () => {
     <div className='bg-[#ffd957] py-[100px]'>
       <div className="container">
         <div className="text-center">
-            <motion.span initial={{ opacity: 0, y: 50 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[16px] font-normal'>OUR CLIENT</motion.span>
-            <motion.h2 initial={{ opacity: 0, y: -60 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[30px] md:text-[50px] font-semibold leading-[38px] md:leading-[68px] mt-4 md:mt-0'>You're in good company</motion.h2>
+            <motion.span initial={{ opacity: 0, y: 50 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[16px] font-normal text-[#181818]'>OUR CLIENT</motion.span>
+            <motion.h2 initial={{ opacity: 0, y: -60 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[30px] md:text-[50px] font-semibold leading-[38px] md:leading-[68px] mt-4 md:mt-0 text-[#181818]'>You're in good company</motion.h2>
             <motion.p initial={{ opacity: 0, y: 50 }} animate={{opacity: 1, y: 0}} transition={{ duration: 1}} className='poppins text-[15px] font-sans text-[#4D5459] leading-[24px] md:leading-[34px] w-[100% md:w-[550px] mt-7 m-auto'>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore mag aliqua sehi fociras.</motion.p>
         </div>

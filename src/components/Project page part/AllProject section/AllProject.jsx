@@ -63,7 +63,7 @@ const AllProject = () => {
     )
 
   return (
-    <div className='py-[100px]'>
+    <div className='py-[100px] bg-[#fff'>
       <div className="container">
         <div className="max-w-6xl mx-auto py-10 px-4">
             <div className="flex gap-4 justify-center mb-4">
@@ -78,7 +78,7 @@ const AllProject = () => {
                     <div className="">
                         <img src={item.imagesName} alt="" />
                     </div>
-                    <div className="text-center mt-6">
+                    <div className="text-center mt-6 text-[#181818]">
                         <h3 className='poppins text-[20px] font-semibold'>{item.title}</h3>
                         <p className='poppins text-[18px] font-sans mt-3'>{item.brandName}</p>
                         <Link to="/" className="poppins text-[14px] font-normal px-10 py-[13px] bg-[#32393e] rounded-md text-white inline-block mt-6 hover:bg-[#ffd957]

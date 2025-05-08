@@ -12,7 +12,7 @@ const CoustomProjectShowcase = () => {
                 <div className="w-full h-[250px] overflow-hidden">
                     <img className='w-full h-[250px] object-cover  group-hover:scale-125 transition-all duration-300' src={ShowCaseImg1} alt="" />
                 </div>
-                <div className="px-[15px] mt-6">
+                <div className="px-[15px] mt-6 text-[#181818]">
                     <p className='poppins text-[15px] font-normal leading-[27px]'>We built a custom e-commerce platform with advanced filtering, real-time inventory management, and a streamlined 
                     checkout process that increased conversions by 35%.</p>
                     <Link to="/project" className='poppins text-[16px] font-normal text-[#bd9103] px-6 py-[12px] mt-5 inline-block hover:bg-[#dbdce0] rounded-md' >View Full Case Study</Link>
@@ -22,7 +22,7 @@ const CoustomProjectShowcase = () => {
                 <div className="w-full h-[250px] overflow-hidden">
                     <img className='w-full h-[250px] object-cover group-hover:scale-125 transition-all duration-300' src={ShowCaseImg2} alt="" />
                 </div>
-                <div className="px-[15px] mt-6">
+                <div className="px-[15px] mt-6 text-[#181818]">
                     <p className='poppins text-[15px] font-normal leading-[27px]'>Developed an intuitive analytics dashboard with real-time data visualization, custom reporting tools, 
                         and user permission management.</p>
                     <Link to="/project" className='poppins text-[16px] font-normal text-[#bd9103] px-6 py-[12px] mt-5 inline-block hover:bg-[#dbdce0] rounded-md' >View Full Case Study</Link>

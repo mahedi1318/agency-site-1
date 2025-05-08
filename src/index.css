@@ -11,6 +11,10 @@
   margin: 0 auto;
 }
 
+body{
+  background: #fff;
+}
+
 .poppins{
   font-family: "Poppins", sans-serif;
 }

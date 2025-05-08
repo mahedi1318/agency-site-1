@@ -21,7 +21,7 @@ const Project = () => {
                 <div className="">
                     <img src={project1} alt="" />
                 </div>
-                <div className="text-center mt-5">
+                <div className="text-center mt-5 text-[#181818]">
                     <h4 className='poppins text-[18px] font-medium'>Creativic Landing Website</h4>
                     <p className='poppins text-[16px] font-sans mt-3'>Identity, Product Design</p>
                     <Link className='poppins text-[15px] font-normal flex items-center gap-[3px] mt-3 justify-center' to="/"><FaLongArrowAltRight /> View Project</Link>
@@ -31,7 +31,7 @@ const Project = () => {
                 <div className="">
                     <img src={project1} alt="" />
                 </div>
-                <div className="text-center mt-5">
+                <div className="text-center mt-5 text-[#181818]">
                     <h4 className='poppins text-[18px] font-medium'>Creativic Landing Website</h4>
                     <p className='poppins text-[16px] font-sans mt-3'>Identity, Product Design</p>
                     <Link className='poppins text-[15px] font-normal flex items-center gap-[3px] mt-3 justify-center' to="/"><FaLongArrowAltRight /> View Project</Link>
@@ -41,7 +41,7 @@ const Project = () => {
                 <div className="">
                     <img src={project1} alt="" />
                 </div>
-                <div className="text-center mt-5">
+                <div className="text-center mt-5 text-[#181818]">
                     <h4 className='poppins text-[18px] font-medium'>Creativic Landing Website</h4>
                     <p className='poppins text-[16px] font-sans mt-3'>Identity, Product Design</p>
                     <Link className='poppins text-[15px] font-normal flex items-center gap-[3px] mt-3 justify-center' to="/"><FaLongArrowAltRight /> View Project</Link>
