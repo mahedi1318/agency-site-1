@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between gap-y-[30px]">
           <div className="w-[100%] md:w-[45%]">
             <Link to="/"  className='poppins text-[25px] font-bold italic text-white'>Techxious</Link>
-            <span className='poppins text-[14px] font-sans text-[#ccc] block mt-5'>Creativic creative agency</span>
+            <span className='poppins text-[14px] font-sans text-[#ccc] block mt-5 w-[100%] md:w-[300px]'>Crafting pixel-perfect digital experiences that combine cutting-edge technology with stunning design.</span>
           </div>
           <div className="w-[50%] md:w-[15%]">
             <h6 className='poppins text-[20px] font-medium text-white'>Discover</h6>

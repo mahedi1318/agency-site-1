@@ -16,7 +16,7 @@ const Service = () => {
             {/* <Link className='poppins text-[15px] font-normal px-6 py-[13px] bg-[#32393e] rounded-md text-white inline-flex items-center gap-[5px] border-l-[5px] border-[#ffd957] 
             hover:bg-[#ffd957] transition-all duration-300 hover:text-[#444] mt-10' to="/" ><FaLongArrowAltRight /> Get started</Link> */}
           </div>
-        <div className="grid grid-cols-2 gap-[40px] mt-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] mt-12">
           <div className="p-[30px] shadow-xl rounded-xl group">
             <div className="w-[55px] h-[55px] flex justify-center items-center text-[22px] shadow rounded-md mb-8 bg-[rgba(189,145,3,0.2)]">
               <IoCodeSharp />

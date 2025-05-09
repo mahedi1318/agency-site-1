@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router'
+import { Link, NavLink } from 'react-router'
 
 const Navbar = () => {
 
@@ -19,25 +19,38 @@ const Navbar = () => {
     const navlinks = (
         <>
         <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#683301]
+                   hover:after:w-full after:transition-all after:duration-300">Home</NavLink>
         </li>     
         <li>
-            <Link to="/project">Portfolio</Link>
+            <NavLink to="/about" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#683301]
+                   hover:after:w-full after:transition-all after:duration-300">About</NavLink>
+        </li>    
+        <li>
+            <NavLink to="/project" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#683301]
+                   hover:after:w-full after:transition-all after:duration-300">Portfolio</NavLink>
         </li>
         <li className='relative group'>
-            <span className='inline-block cursor-pointer'>Service</span>
-            <ul className={`poppins text-[14px] font-normal absolute top-full left-0  min-w-[180px] p-4 hidden group-hover:flex flex-col gap-2 rounded-md shadow-lg
-                 z-50 ${scrolled ? "text-white bg-[#0f1425]" : "bg-[#ffd957] border border-[#d6d6d6]"}`}>
+            <span className="inline-block cursor-pointer relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#683301]
+                   hover:after:w-full after:transition-all after:duration-300">Service</span>
+            <ul className={`poppins text-[14px] font-normal absolute top-[30px] left-0 min-w-[180px] p-4 flex-col gap-2 rounded-md shadow-lg z-50 transform opacity-0 scale-95 
+            translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0
+              ${scrolled ? "text-[#0f1425] bg-[#fff]" : "bg-[#ffd957] border border-[#d6d6d6]"}`}>
                 <li>
-                    <Link to="/customCode" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2 rounded-md transition-all duration-500'>Custom Code</Link>
+                    <NavLink to="/customCode" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2 rounded-md transition-all duration-500'>Custom Code</NavLink>
                 </li>
                 <li>
-                    <Link to="/webflow" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2 rounded-md transition-all duration-500'>Webflow</Link>
+                    <NavLink to="/webflow" className='hover:bg-[#444] hover:text-white w-full inline-block py-1 pl-2 rounded-md transition-all duration-500'>Webflow</NavLink>
                 </li>
             </ul>
         </li> 
         <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/blog" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#683301]
+                   hover:after:w-full after:transition-all after:duration-300">Blog</NavLink>
+        </li>
+        <li>
+            <NavLink to="/contact" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-[#683301]
+                   hover:after:w-full after:transition-all after:duration-300">Contact</NavLink>
         </li>       
 
         </>
@@ -63,7 +76,7 @@ const Navbar = () => {
             </ul>
         </div>
         <div className="navbar-end">
-            <Link to="/contact" className="px-4 md:px-7 py-[9px] md:py-[11px] bg-[#32393e] rounded-md text-white poppins text-[14px] md:text-[16px] font-medium">Get started</Link>
+            <Link to="/contact" className="px-4 md:px-7 py-[9px] md:py-[11px] bg-[#32393e] rounded-md text-white poppins text-[14px] md:text-[16px] font-medium ">Get started</Link>
         </div>
         </div>
     </div>

@@ -8,6 +8,7 @@ import ServicePage from '../page/ServicePage'
 import ContactPage from '../page/ContactPage'
 import CustomCodePage from '../page/CustomCodePage'
 import WebflowPage from '../page/WebflowPage'
+import BlogPage from '../page/BlogPage'
 
 const Routess = () => {
   return (
@@ -17,6 +18,7 @@ const Routess = () => {
             <Route index element={<Home />}></Route>
             <Route path='/about' element={<AboutPage />}></Route>
             <Route path='/project' element={<ProjectPage />}></Route>
+            <Route path='/blog' element={<BlogPage />}></Route>
             <Route path='/service' element={<ServicePage />}></Route>
             <Route path='/customCode' element={<CustomCodePage />}></Route>
             <Route path='/webflow' element={<WebflowPage />}></Route>
