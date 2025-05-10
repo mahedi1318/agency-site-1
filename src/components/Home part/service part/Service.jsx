@@ -23,7 +23,7 @@ const Service = () => {
             </div>
             <h3 className='poppins text-[24px] font-semibold text-[#181818] group-hover:text-[#bd9103]'>Custom Code Development</h3>
             <p className='poppins text-[16px] font-normal mt-3 text-[#181818]'>We build custom websites and web applications from scratch using modern frameworks and technologies.</p>
-            <div className="mt-6">
+            <div className="mt-6 text-[#181818]">
               <div className="mt-4 flex items-center gap-[8px]">
                 <IoIosCheckmarkCircleOutline className='text-[20px] text-[#bd9103]' />
                 <span className='poppins text-[14px] font-normal'>Tailor-made solutions that perfectly match your needs</span>
